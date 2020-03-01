@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.name-card {
+  font-size: 11px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(100, 100, 100, .1);
+  width: 100%;
+  max-width: 330px;
+  margin: auto;
+}
+
+.left-side {
+  background-color: #333333;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.right-side {
+  text-align: right;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.divider {
+  background-image: linear-gradient(to right, #ffffff, #aaaaaa, #ffffff);
+  height: 2px;
+  margin: 15px;
+}
